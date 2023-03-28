@@ -1,0 +1,1519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>v-convert</title>
+    <link href="style.css" rel="stylesheet" />
+    <!-- <link href="styles2.css" rel="stylesheet" /> -->
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo"><span class="logo-v">V</span>convert</h1>
+    </header>
+    <div class="quotes">
+      <p class="quote-texts">
+        The quickest way to convert currency. <br />
+        Convert with confidence.
+      </p>
+    </div>
+    <main class="main-component">
+      <div class="labels">
+        <div class="input-label">From</div>
+        <div class="to-label">To</div>
+      </div>
+      <div class="input-and-output-containers">
+        <section class="from-section">
+          <div class="input-element">
+            <input type="number" class="input-field" id="input" />
+          </div>
+          <div class="dropdown-1">
+            <div class="select-button">
+              Select Country
+              <img src="images/shevron.svg" class="shevron-svg" />
+            </div>
+            <div class="search">
+              <img src="images/search.svg" class="search-svg" />
+              <input type="text" placeholder="Search" class="search-input" />
+            </div>
+            <div class="drop-down-list-1">
+              <button class="options">
+                <img src="flag-svgs/af.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AFN</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/al.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >ALL</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/dz.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >DZD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/as.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >USD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ad.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ao.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AOA</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ai.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XCD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ag.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XCD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ar.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >ARS</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/am.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AMD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/aw.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AWG</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/au.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AUD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/at.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/az.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AZN</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bs.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BSD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bh.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BHD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bd.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BDT</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bb.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BBD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/by.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BYN</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/be.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bz.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BZD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bj.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XOF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bm.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BMD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bt.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BTN</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bo.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BOB</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bo.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BOV</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bq.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >USD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ba.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BAM</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bw.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BWP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bv.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >NOK</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/br.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BRL</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/io.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >USD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bn.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BND</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bg.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BGN</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bf.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XOF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bi.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BIF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cv.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CVE</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/kh.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >KHR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cm.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XAF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ca.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CAD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ky.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >KYD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cf.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XAF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/td.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XAF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cl.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CLF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cl.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CLP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cn.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CNY</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cx.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AUD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cc.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AUD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/co.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >COP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/co.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >COU</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/km.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >KMF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cd.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CDF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cg.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XAF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ck.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >NZD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cr.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CRC</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/hr.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >HRK</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cu.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CUC</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cu.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CUP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cw.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >ANG</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cy.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cz.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CZK</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ci.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XOF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/dk.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >DKK</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/dj.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >DJF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/dm.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XCD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/do.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >DOP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/eu.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >USD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/eg.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EGP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/sv.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >SVC</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/sv.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >USD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gq.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XAF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/er.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >ERN</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ee.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/et.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >ETB</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/fk.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >FKP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/fo.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >DKK</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/fj.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >FJD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/fi.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/fr.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gf.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/pf.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XPF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/tf.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ga.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XAF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gm.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GMD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ge.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GEL</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/de.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gh.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GHS</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gi.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GIP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gr.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gl.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >DKK</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gd.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XCD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gp.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gu.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >USD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gt.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GTQ</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gg.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GBQ</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gn.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GNF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gw.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XOF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gy.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GYD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ht.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >HTG</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/hm.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AUD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/va.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/hn.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >HNL</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/hk.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >HKD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/hu.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >HUF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/is.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >ISK</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/in.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >INR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/id.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >IDR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ir.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >IRR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/iq.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >IQD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ie.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/im.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GBP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/il.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >ILS</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/it.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/jm.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >JMD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/jp.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >JPY</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/je.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GBP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/jo.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >JOD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/kz.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >KZT</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ke.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >KES</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ki.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AUD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ru.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >RUB</span
+                >
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="convert">
+          <button class="convert-button">
+            <img src="images/arrows.svg" class="convert-icon" />
+          </button>
+        </section>
+        <section class="to-section">
+          <div class="dropdown-2">
+            <div class="select-button">
+              Select Country
+              <img src="images/shevron.svg" class="shevron-svg" />
+            </div>
+            <div class="search2">
+              <img src="images/search.svg" class="search-svg2" />
+              <input type="text" placeholder="Search" class="search-input2" />
+            </div>
+            <div class="drop-down-list-2">
+              <button class="options">
+                <img src="flag-svgs/af.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AFN</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/al.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >ALL</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/dz.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >DZD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/as.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >USD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ad.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ao.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AOA</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ai.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XCD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ag.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XCD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ar.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >ARS</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/am.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AMD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/aw.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AWG</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/au.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AUD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/at.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/az.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AZN</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bs.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BSD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bh.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BHD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bd.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BDT</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bb.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BBD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/by.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BYN</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/be.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bz.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BZD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bj.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XOF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bm.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BMD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bt.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BTN</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bo.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BOB</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bo.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BOV</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bq.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >USD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ba.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BAM</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bw.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BWP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bv.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >NOK</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/br.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BRL</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/io.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >USD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bn.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BND</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bg.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BGN</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bf.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XOF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/bi.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >BIF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cv.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CVE</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/kh.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >KHR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cm.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XAF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ca.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CAD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ky.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >KYD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cf.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XAF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/td.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XAF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cl.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CLF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cl.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CLP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cn.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CNY</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cx.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AUD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cc.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AUD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/co.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >COP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/co.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >COU</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/km.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >KMF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cd.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CDF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cg.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XAF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ck.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >NZD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cr.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CRC</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/hr.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >HRK</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cu.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CUC</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cu.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CUP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cw.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >ANG</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cy.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/cz.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >CZK</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ci.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XOF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/dk.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >DKK</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/dj.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >DJF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/dm.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XCD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/do.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >DOP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/eu.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >USD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/eg.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EGP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/sv.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >SVC</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/sv.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >USD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gq.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XAF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/er.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >ERN</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ee.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/et.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >ETB</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/fk.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >FKP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/fo.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >DKK</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/fj.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >FJD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/fi.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/fr.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gf.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/pf.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XPF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/tf.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ga.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XAF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gm.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GMD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ge.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GEL</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/de.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gh.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GHS</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gi.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GIP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gr.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gl.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >DKK</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gd.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XCD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gp.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gu.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >USD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gt.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GTQ</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gg.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GBQ</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gn.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GNF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gw.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >XOF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/gy.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GYD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ht.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >HTG</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/hm.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AUD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/va.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/hn.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >HNL</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/hk.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >HKD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/hu.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >HUF</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/is.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >ISK</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/in.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >INR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/id.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >IDR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ir.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >IRR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/iq.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >IQD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ie.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/im.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GBP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/il.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >ILS</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/it.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >EUR</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/jm.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >JMD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/jp.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >JPY</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/je.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >GBP</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/jo.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >JOD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/kz.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >KZT</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ke.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >KES</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ki.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >AUD</span
+                >
+              </button>
+              <button class="options">
+                <img src="flag-svgs/ru.svg" class="currency-svg" /><span
+                  class="currency-code"
+                  >RUB</span
+                >
+              </button>
+            </div>
+          </div>
+          <div class="output-result"></div>
+        </section>
+      </div>
+    </main>
+  </body>
+  <script src="script.js" defer></script>
+</html>

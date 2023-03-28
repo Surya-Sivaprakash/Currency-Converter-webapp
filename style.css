@@ -1,0 +1,353 @@
+/* --------------------------------
+GENERAL------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "RobotoMono";
+  src: url("fonts/RobotoMono-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Oxygen";
+  src: url("fonts/oxygen/Oxygen-Bold.ttf") format("truetype");
+}
+
+body {
+  font-family: "RobotoMono", "Gill Sans", "Gill Sans MT";
+  background-image: url(images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* --------------------------------
+HEADERS------------------------- */
+
+.logo {
+  font-family: "Oxygen";
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  color: aliceblue;
+  font-size: xx-large;
+  letter-spacing: 0.5rem;
+}
+
+.logo-v {
+  position: absolute;
+  left: 42%;
+  bottom: 91%;
+  color: burlywood;
+  font-size: 3rem;
+}
+
+.quotes {
+  display: flex;
+  margin: 3rem 10rem 0rem 4.4rem;
+}
+
+.quote-texts {
+  margin-bottom: 0rem;
+  color: white;
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+/* ---------------------------------------
+MAIN-COMPONENT------------------------- */
+
+.main-component {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  width: clamp(30rem, 90rem, 90rem);
+  background-color: rgb(255, 255, 255);
+  padding: 3rem;
+  border-radius: 1rem;
+  margin-top: 9rem;
+}
+
+/* -------------------------------------------------
+LABELS------------------------- */
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -------------------------------------------------
+INPUT-AND-OUTPUT-CONTAINERS------------------------- */
+
+.input-and-output-containers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ---------------------------------------
+FROM-SECTION------------------------- */
+
+.from-section {
+  display: flex;
+}
+
+.input-label {
+  font-family: "RobotoMono", "Gill Sans", "Gill Sans MT";
+  font-weight: bolder;
+  font-size: larger;
+  letter-spacing: 0.2rem;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-size: large;
+  padding: 1rem 3rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: white;
+}
+
+.dropdown-1 {
+  position: absolute;
+  margin-left: 20.5rem;
+  display: block;
+}
+
+.dropdown-2 {
+  position: absolute;
+  display: block;
+  top: 47%;
+  bottom: 50%;
+  right: 24%;
+}
+
+.currency-code {
+  font-size: large;
+  margin: 0.09rem 1rem;
+  max-width: 2rem;
+}
+.currency-svg {
+  max-width: 2rem;
+  margin: 0rem 0rem;
+}
+
+.shevron-svg {
+  position: relative;
+  top: 0.1rem;
+  left: 4rem;
+  max-width: 1rem;
+}
+
+/* ---------------------------------------
+CONVERT-ICON------------------------- */
+
+.convert-button {
+  position: absolute;
+  top: 43%;
+  left: 49%;
+  right: 5%;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  padding: 1rem 1rem;
+  max-width: 4rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.convert-icon {
+  min-width: 1.8rem;
+}
+
+.convert-button.active .convert-icon {
+  transform: rotate(-180deg);
+  transition: transform 0.5s linear;
+}
+
+/* ---------------------------------------
+TO-SECTION------------------------- */
+
+.to-section {
+  display: flex;
+}
+
+/* ---------------------------------------
+TO-SECTION----------------------------- */
+
+.to-label {
+  font-weight: bolder;
+  font-size: large;
+  letter-spacing: 0.2rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  margin-right: 35rem;
+}
+
+.output-result {
+  position: absolute;
+  top: 46%;
+  bottom: 50%;
+  right: 1%;
+  left: 77%;
+  max-height: 2.1rem;
+  max-width: 18rem;
+  padding: 0.9rem 0.8rem 2.5rem 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: white;
+}
+
+/* COMMON-FOR-BOTH-INPUT-AND-OUTPUT-CONTAINERS */
+
+.select-button {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0rem 0.8rem 0rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  background-color: white;
+  min-width: 18rem;
+}
+
+.options {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.8rem 7rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  background-color: white;
+}
+
+.options:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.drop-down-list-1 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-height: 16rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: none;
+}
+
+.dropdown-1.active .drop-down-list-1 {
+  display: block;
+}
+
+.dropdown-1.active .shevron-svg {
+  transform: rotate(-180deg);
+  transition: transform 0.3s linear;
+}
+
+.drop-down-list-2 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-height: 16rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: none;
+}
+.dropdown-2.active .drop-down-list-2 {
+  display: block;
+}
+
+.dropdown-2.active .shevron-svg {
+  transform: rotate(-180deg);
+  transition: transform 0.3s linear;
+}
+
+.drop-down-list::-webkit-scrollbar {
+  max-width: 0.3rem;
+}
+
+.drop-down-list::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 1.5rem;
+}
+
+.drop-down-list::-webkit-scrollbar-thumb {
+  background: #b4b4b4;
+  border-radius: 1.5rem;
+}
+
+/* --------------------------
+SEARCH-INPUT-1-------------------- */
+
+.search {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem 0rem 1rem 0rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  background-color: white;
+  display: none;
+}
+
+.search.active {
+  display: block;
+}
+
+.search-svg {
+  position: relative;
+  left: 10%;
+  max-width: 1rem;
+}
+
+.search-input {
+  margin-left: 1rem;
+  padding: 0.3rem 2rem;
+  border: none;
+  background-color: white;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+/* --------------------------
+SEARCH-INPUT-2-------------------- */
+
+.search2 {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem 0rem 1rem 0rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  background-color: white;
+  display: none;
+}
+
+.search2.active {
+  display: block;
+}
+
+.search-svg2 {
+  position: relative;
+  left: 10%;
+  max-width: 1rem;
+}
+
+.search-input2 {
+  margin-left: 1rem;
+  padding: 0.3rem 2rem;
+  border: none;
+  background-color: white;
+}
+
+.search-input2:focus {
+  outline: none;
+}
