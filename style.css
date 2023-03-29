@@ -195,18 +195,18 @@ TO-SECTION----------------------------- */
   letter-spacing: 0.2rem;
   margin-top: 0rem;
   margin-bottom: 1rem;
-  margin-right: 35rem;
+  margin-right: 36rem;
 }
 
 .output-result {
   position: absolute;
-  top: 46%;
+  top: 47%;
   bottom: 50%;
   right: 1%;
   left: 77%;
-  max-height: 2.1rem;
+  max-height: 2.2rem;
   max-width: 18rem;
-  padding: 0.9rem 0.8rem 2.5rem 0.5rem;
+  padding: 1rem 0.8rem 2.5rem 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border: white;
 }
@@ -216,11 +216,11 @@ TO-SECTION----------------------------- */
 .select-button {
   display: flex;
   justify-content: center;
-  padding: 1rem 0rem 0.8rem 0rem;
+  padding: 1rem 0rem 1rem 0rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border: none;
   background-color: white;
-  min-width: 18rem;
+  min-width: 19rem;
 }
 
 .options {
@@ -237,37 +237,38 @@ TO-SECTION----------------------------- */
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
+/* DROPDOWN-LISTS---------------------
+------------------------------------ */
+
 .drop-down-list-1 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  max-height: 16rem;
+  max-height: 0;
   overflow-y: auto;
-  overflow-x: hidden;
-  display: none;
+  transition: max-height 0.5s ease-in-out;
 }
 
 .dropdown-1.active .drop-down-list-1 {
-  display: block;
+  max-height: 16rem;
 }
 
 .dropdown-1.active .shevron-svg {
   transform: rotate(-180deg);
-  transition: transform 0.3s linear;
+  transition: transform 0.2s linear;
 }
 
 .drop-down-list-2 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  max-height: 16rem;
+  max-height: 0;
   overflow-y: auto;
-  overflow-x: hidden;
-  display: none;
+  transition: max-height 0.5s ease-in-out;
 }
 .dropdown-2.active .drop-down-list-2 {
-  display: block;
+  max-height: 16rem;
 }
 
 .dropdown-2.active .shevron-svg {
   transform: rotate(-180deg);
-  transition: transform 0.3s linear;
+  transition: transform 0.2s linear;
 }
 
 .drop-down-list::-webkit-scrollbar {
