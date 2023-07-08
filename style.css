@@ -28,7 +28,7 @@ button {
 
 body {
   font-family: "RobotoMono", "Gill Sans", "Gill Sans MT";
-  background-image: url(images/background.png);
+  background-image: url(images/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -56,7 +56,7 @@ HEADERS------------------------- */
 
 .quotes {
   display: flex;
-  margin: 3rem 10rem 0rem 4.4rem;
+  margin: 10rem 10rem 0rem 4.4rem;
 }
 
 .quote-texts {
